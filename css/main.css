@@ -2,33 +2,52 @@ body {
   background-color: #518887, 0.54;
   color: #777;
   font-family: rooney-sans, Avenir-Book, Calibri, sans-serif;
-  width: 30%;
-  heigth: auto; }
+  width: 25%;
+  heigth: auto;
+  margin-left: 3%; }
+
+.container {
+  border: 1px solid #eaeaea;
+  padding: 3%; }
+
+.progress {
+  width: 100%; }
+
+span {
+  color: #EF5F3C; }
+
+.advice {
+  font-size: 2rem; }
 
 #quantity {
-  width: 15%;
+  width: 20%;
   height: 2.75rem;
   box-sizing: border-box; }
 
 #donate {
   background-color: #1CBC2C;
   color: #fff;
-  width: 15%;
+  width: auto;
   height: 2.75rem;
   border: none;
-  margin-left: 3%; }
-
-span {
-  color: #EF5F3C; }
-
-.ofert {
-  font-size: 2rem; }
+  margin-left: 3%;
+  border-radius: 1px; }
 
 a {
   text-decoration: none;
   color: #20A1D4; }
 
 .twoButtons {
-  margin-top: 2%; }
+  margin-top: 5%;
+  margin-left: 3%;
+  border-radius: 1px; }
+
+.footerButton {
+  border: 1px solid #eaeaea;
+  background-color: #fff;
+  margin-left: 1%;
+  padding: 2%;
+  width: auto;
+  heigth: auto; }
 
 /*# sourceMappingURL=main.css.map */

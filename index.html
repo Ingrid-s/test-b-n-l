@@ -8,22 +8,25 @@
   </head>
   <body>
 
-    <article>
+    <article class="container">
       <progress value=75 max=100 class="progress"></progress>
-      <p class="ofert"><span>Only 3 days left</span> to fund this project.</p>
+      <p class="advice"><span>Only 3 days left</span> to fund this project.</p>
       <p>Join the 42 other donors who have already supported this project. Every dollar helps.</p>
-      <div class= callToAction1>
+
+      <div class= callToAction>
         <input type="text" name="quantity" id="quantity" value='$'>
         <button type="submit" name="Donate" id="donate"> Give Now</button>
-          <div id="empty"></div>
+        <div id="empty"></div>
+        <br>
         <a href="https://ingrid-s.github.io/Portafolio/" target="_blank">Why give $50?</a>
-      </div>
-      <div class="twoButtons">
-        <button type="button" name="save">Save for Later</button>
-        <button type="button" name="share"> Tell your friends</button>
       </div>
 
     </article>
+
+    <div class="twoButtons">
+      <button class="footerButton" type="button" name="save">Save for Later</button>
+      <button class="footerButton" type="button" name="share"> Tell your friends</button>
+    </div>
 
 
 <script src="js/app.js"></script>

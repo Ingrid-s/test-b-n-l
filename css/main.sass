@@ -10,37 +10,62 @@ $font-size-primary: 2rem
 $font-size-secondary: 1.5rem
 $heigth-input: 2.75rem
 $heigth-buttons: 1.9rem
+$margin-left: 3%
 
+//Estilos
 body
     background-color: #518887, 0.54
     color: $grey
     font-family: $font-family
-    width: 30%
+    width: 25%
     heigth: auto
+    margin-left: $margin-left
 
 
-#quantity
-    width: 15%
-    height: $heigth-input
-    box-sizing: border-box
+.container
+    border: 1px solid $light_grey
+    padding: 3%
 
-#donate
-    background-color: $green
-    color: #fff
-    width: 15%
-    height: $heigth-input
-    border: none
-    margin-left: 3%
-
+.progress
+    width: 100%
 
 span
     color: $orange
 
-.ofert
+.advice
     font-size: $font-size-primary
+
+#quantity
+    width: 20%
+    height: $heigth-input
+    box-sizing: border-box
+
+
+#donate
+    background-color: $green
+    color: #fff
+    width: auto
+    height: $heigth-input
+    border: none
+    margin-left: $margin-left
+    border-radius: 1px
+
 a
     text-decoration: none
     color: $blue
 
+
 .twoButtons
-    margin-top: 2%
+    margin-top: 5%
+    margin-left: $margin-left
+    border-radius: 1px
+
+
+
+.footerButton
+    border: 1px solid $light_grey
+    background-color: #fff
+    margin-left: 1%
+    padding: 2%
+    width: auto
+    heigth: auto
