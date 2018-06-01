@@ -1,20 +1,22 @@
 
-
+//Create Element, add text.
 const newP = document.createElement('p');
 newP.id='quantity';
-newP.textContent ='nuevo texto, gracias por donar';
+newP.textContent ='Thank you!';
 
-document.getElementById("donate").addEventListener("click", function (e){
+//Identify element, listen the event, prevent default (event)
+let donateButton= document.getElementById("donate");
+donateButton.addEventListener("click", function (e){
   e.preventDefault();
+  //convert the value of input (string to number and remove $ character)
 let inputValue = parseInt(document.getElementById('quantity').value.slice(1));
 
+//Comparation from validate the amount
   if(inputValue >= 5) {
+    // if condition is true, create element and text
     document.getElementById('empty').appendChild(newP);
   } else {
-    console.log('error, no seas codinche');
+    //if condition is false, show an alert
+    alert("Please, try an amount greater than 5.");
   }
 });
-
-// falta darle padding a todo el recuadro
-// falta el borde de todo el recuadro
-// falta corregir el estilo de los ultimos botones.
